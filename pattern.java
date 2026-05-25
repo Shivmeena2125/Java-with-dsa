@@ -112,15 +112,106 @@ import java.util.*;
 
 
     // butterfly pattern..
+    // int n =4; // upperr half of butterfly patttern..
+    // for(int i =1; i<=n; i++){
+    //     for(int j =1; j<=i; j++){
+    //         System.out.print("*");
+
+    //     }
+    //     for(int k=1; k<=2*(n-i); k++){
+    //         System.out.print(" ");
+    //     }
+    //     for (int l =1; l<=i; l++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+        
+    // }
+    // int m = 4; // lower half  of butterfly pattern..
+    // for(int i=1; i<=n; i++){
+    //     for(int j=1; j<=n-i+1; j++){
+    //         System.out.print("*");
+    //     }
+    //     for(int k=1; k<=2*(i-1); k++){
+    //         System.out.print(" ");
+
+    //     }
+    //     for(int l =1; l<=n-i+1; l++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    // }
+
+    // int n= 5;
+    // for(int i =1; i<=n; i++){
+    //     for(int j =1; j<n-i+1; j++){
+    //         System.out.print(" ");
+    //     }
+    //     for(int k=1; k<=n; k++){
+    //         System.out.print("*" + " ");
+    //     }
+    //     System.out.println();
+    // }
+
+    // Number pyramid pattern..
+  
+    // int n = 5;
+    // for(int i =1; i<=n; i++){
+    //         for(int j =1; j<n-i+1; j++){
+    //             System.out.print(" ");
+    //         }
+    //         for(int  k=1; k<=i; k++){
+    //             System.out.print(i + " ");
+    //         }
+    //         System.out.println();
+
+    // }
+    
+    // Palindrome pattern..
+    // int n =5;
+    // for(int i =1; i<=n; i++){
+    //     for(int j =1; j<=n-i; j++){
+    //         System.out.print(" ");
+    //     }
+    //     for(int j =i; j>=1; j--){
+    //         System.out.print(j);
+    //     }
+    //     for(int j =2; j<=i; j++){
+    //         System.out.print(j);
+    //     }
+    //     System.out.println();
+    // }
+
+
+    // Diamond pattern..
+    // upper half of diamond pattern..
     int n =4;
     for(int i =1; i<=n; i++){
+        for(int j =1; j<=n-i; j++){
+            System.out.print(" ");
+        }
         for(int j =1; j<=i; j++){
             System.out.print("*");
-
+        }
+        for(int j=2; j<=i; j++){
+            System.out.print("*");
         }
         System.out.println();
     }
+    // lower half of diamond pattern..
+    for(int i=1; i<=n ;i++){
+        for(int j =1; j<=i-1; j++){
+            System.out.print(" ");
 
+        }
+        for(int j =1; j<=n-i+1; j++){
+            System.out.print("*");
+        }
+            for(int j=1; j<=n-i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+    }
 
     
 
