@@ -18,6 +18,9 @@ public class recursion3 {
         }
     }
 
+    //count total path in a maze to move from (0,0) to (n,m).
+
+
 
 public static void main(String [] arg){
     String str ="abc";

@@ -248,8 +248,8 @@ public static void main (String [] args){
 
 
 //key combination
-String str = "4";
-keycombination(str,0,"");
+// String str = "4";
+// keycombination(str,0,"");
 
 
 
