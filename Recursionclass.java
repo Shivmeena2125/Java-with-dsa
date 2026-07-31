@@ -40,7 +40,7 @@ public class Recursionclass {
     }
     
 
-     //print the factorial on number n. = fact of n = n*(n-1)
+     //print the factorial of number n. = fact of n = n*(n-1)
      public static int printfact(int n){
         if(n==1 || n==0){
             return 1;
